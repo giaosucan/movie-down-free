@@ -1,0 +1,41 @@
+<html>
+<head>
+	<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+	<title>{WEB_TITLE}</title>
+	<meta http-equiv="imagetoolbar" content="no">
+	<link rel=stylesheet href='{TPL_LINK}/style.css' type=text/css>
+</head>
+<script>var loadingText = "<center><img src='{TPL_LINK}/img/loading.gif'> <b>Loading ...</b></center>";</script>
+<script src="js/gift.js"></script>
+<body>
+<form method="post" onSubmit="return false;">
+<div style="width:100%" align=center>
+<table width=100% cellpadding=2 cellspacing=2 class=border bgcolor="white">
+	<tr><td class=title_r align=center colspan=2>Send to friend</td></tr>
+	<tr><td colspan=2 class=fr><div id='gift_loading' style='display:none;margin-bottom:5'></div></td></tr>
+	<tr>
+		<td width=30% class=fr>Your name :</td>
+		<td class=fr_2><input type="text" id="sender_name" size="40"></td>
+	</tr>
+	<tr>
+		<td class=fr>Your e-mail :</td>
+		<td class=fr_2><input type="text" id="sender_email" size="40"></td>
+	</tr>
+	<tr>
+		<td class=fr>Receiver name :</td>
+		<td class=fr_2><input type="text" id="recip_name" size="40"></td>
+	</tr>
+	<tr>
+		<td class=fr>Receiver e-mail :</td>
+		<td class=fr_2><input type="text" id="recip_email" size="40"></td>
+	</tr>
+	<tr>
+		<td class=fr>Message :<br>Max. <b>255</b> characters</td>
+		<td class=fr_2><textarea style="width:320px" rows="5" id="message"></textarea></td>
+	</tr>
+	<tr><td colspan=2 class=fr align=center><input class="submit" type="submit" value="Send" onClick="return gift_check_values();"> <input class="submit" type="reset" value="Reset"> <input type="hidden" id="media_id" value="{song.ID}"></td></tr>
+</table>
+</div>
+</form>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<table width=100% cellpadding=0 cellspacing=0>
+	<tbody id=playing>
+	<!-- BEGIN lyric -->
+	<tr>
+		<td align=center><table cellpadding=5 cellspacing=2 class=border bgcolor="#F9F9F9" width=99% align=center>
+			<tr><td colspan=2 class=title_c>{TITLE}</td></tr>
+			<tr>
+				<td valign=top>
+					<table cellpadding=2 cellspacing=2 class=border bgcolor="#FFFFFF" width=100% align=center>
+						<tr><td>{PICZ}</td></tr>
+					</table>
+				</td>
+				<td valign=top width=100%>
+					<table cellpadding=2 cellspacing=2 class=border bgcolor="#FFFFFF" width=100% align=left>
+						<tr><td colspan=2 class=title_r>Overview</td></tr>
+						<tr><td valign=top><b>Genre</b></td><td><b>{CAT}</b></td></tr>
+						{OPTIONS}
+						<!-- BEGIN col -->
+						<tr><td valign=top><b>Collection</b></td><td><a href="{album.URL}"><b>{album.NAME}</b></a></td></tr>
+						<!-- END col -->
+					</table>
+				</td>
+			</tr>
+			<tr><td colspan=2>{LYRIC}</td></tr>
+		</table></td>
+	</tr>
+	<!-- END lyric -->
+	<tr>
+		<td valign=top align=center style="padding-top:10"><table cellpadding=5 cellspacing=2 width=99% align=center class=border>
+			<!-- BEGIN trailer -->
+			<tr><td class=title_c>Movie trailer</td></tr>
+			<tr><td align=center><!-- BEGIN player --><!-- END player --></td></tr></table>
+			<!-- END trailer -->
+			<table cellpadding=5 cellspacing=2 class=border width=99% align=center><tr><td>{MEDIA_INFO}</td></tr>
+		</table></td>
+	</tr>
+	<!-- BEGIN down -->
+	<tr>
+		<td align=center style="padding-top:10"><table cellpadding=2 cellspacing=2 class=border bgcolor="#F9F9F9" width=99% align=center>
+			<tr><td colspan=2 class=title_c align=center>DOWNLOADS</td></tr>
+			<!-- BEGIN link1 -->
+			<tr><td valign=top width=100%>
+				<table cellpadding=5 cellspacing=2 class=border bgcolor="#FFFFFF" width=100% align=left>
+					<tr><td colspan=2 class=title_l>Rapidshare</td></tr>
+					<tr><td valign=top><div style='padding-left:1;width=425;height:150;overflow:auto'>{LINK1}</div></td></tr>
+				</table>
+			</td></tr>
+			<!-- END link1 -->
+			<tr><td valign=top align=center style="padding-top:10">
+					<!-- BOX box_mod('mod_down') -->
+			</td></tr>
+			<!-- BEGIN link2 -->
+			<tr><td valign=top width=100%>
+				<table cellpadding=5 cellspacing=2 class=border bgcolor="#FFFFFF" width=100% align=left>
+					<tr><td colspan=2 class=title_l>Megaupload</td></tr>
+					<tr><td valign=top><div style='padding-left:1;width=425;height:150;overflow:auto'>{LINK2}</div></td></tr>
+				</table>
+			</td></tr>
+			<!-- END link2 -->
+			<!-- BEGIN link3 -->
+			<tr><td valign=top width=100%>
+				<table cellpadding=5 cellspacing=2 class=border bgcolor="#FFFFFF" width=100% align=left>
+					<tr><td colspan=2 class=title_l>Others</td></tr>
+					<tr><td valign=top><div style='padding-left:1;width=425;height:150;overflow:auto'>{LINK3}</div></td></tr>
+				</table>
+			</td></tr>
+			<!-- END link3 -->
+		</table></td>
+	</tr>
+	<!-- END down -->
+	</tbody>
+</table>

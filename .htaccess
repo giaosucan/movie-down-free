@@ -1,0 +1,21 @@
+# URL rewriting for goOgle CMS
+#
+# To use friendly URLs for gVN you need to uncomment the three Rewrite directives
+# Make sure RewriteBase points to the directory where you installed gVN
+# e.g. / if your installation is in root
+# or /gVN if your installation is in the gVN subdirectory
+#
+# You must be running on Apache with mod_rewrite to be able to use this functionality.
+#
+
+DirectoryIndex index.html index.php
+Options -Indexes
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /xmedia
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.* - [L,QSA]
+
+# CMS
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/]+)?$ index.php?url=$1 [QSA]

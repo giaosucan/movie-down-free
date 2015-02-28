@@ -1,0 +1,22 @@
+<form method="post" onSubmit="return false;">
+<input value="{media.ID}" type="hidden" id="media_id">
+<table width=100% cellpadding=2 cellspacing=2 class=border>
+	<tr><td class=title_r align=center>Comments</td></tr>
+	<tr><td><div style="overflow:auto;height:150px;width:100%">
+	<!-- BEGIN comment_block -->
+	<!-- #BEGIN comment -->
+	Sent by <b><a href="{comment.POSTER_URL}">{comment.POSTER}</a></b> at {comment.TIME}
+	<!-- #BEGIN functions --> - <a href='Delete' onClick="return comment_delete({media.ID},{comment.ID})"><b>Delete</b></a><!-- #END functions -->
+	<div class="{comment.CLASS}">{comment.CONTENT}</div>
+	<!-- #END comment -->
+	<!-- END comment_block -->
+	</div></td></tr>
+	<!-- BEGIN write_comment -->
+	<tr><td><div id='comment_loading' style='display:none;margin-bottom:5'></div></td></tr>
+	<tr>
+		<td class=fr align=center>Write your comment - Max. <b>255</b> characters<br>Support <b>Yahoo Emotions</b><br><textarea style="width:400px" rows="5" id="comment_content"></textarea></td>
+	</tr>
+	<tr><td class=fr align=center><input class="submit" type="submit" value="Send" onClick="return comment_check_values();"></td></tr>
+	<!-- END write_comment -->
+</table>
+</form>

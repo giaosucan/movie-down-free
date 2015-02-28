@@ -1,0 +1,293 @@
+<html>
+<head>
+	<meta name="verify-v1" content="aec2AUgRth+mvXXjaVbS1V7ROpMQBFjqSVOojQbwB/c=" >
+	<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+	<meta name="KEYWORDS" content="movie,film,download,free,moviedownfree,free movie, free film, free download" />
+	<meta name="Description" content="MDF - Moviedownfree.com" />
+	<title>{WEB_FTITLE}</title>
+	<link rel=stylesheet href='{TPL_LINK}/style.css' type=text/css>
+</head>
+<script>
+function SoH_Media(obj,is_close) {
+	var hideshow = document.getElementById(obj);
+	if (is_close) {
+		//hideshow.innerHTML = '';
+		//hideshow.style.display = "none";
+		document.getElementById('playing_field').innerHTML = '';
+		//document.getElementById("show_hide").style.display = "none";
+	}
+	else {
+		if(hideshow.style.display != "none") {
+			hideshow.style.display = "none";
+			document.getElementById("SoH").innerHTML = '[+] Display this movie';
+		}
+		else {
+			hideshow.style.display = "block";
+			document.getElementById("SoH").innerHTML = '[-] Hide this movie';
+		}
+	}
+	return false;
+}
+
+function scrool_auto() {
+var vitri_top = document.getElementById("data_field").offsetTop + 200;
+//alert(vitri_top);
+self.scrollTo(0, vitri_top);
+}
+
+// BEGIN RATING
+
+var RATE_OBJECT_IMG = '{TPL_LINK}/img/rate/full.gif';
+var RATE_OBJECT_IMG_HOVER = '{TPL_LINK}/img/rate/full.gif';
+var RATE_OBJECT_IMG_HALF = '{TPL_LINK}/img/rate/half.gif';
+var RATE_OBJECT_IMG_BG = '{TPL_LINK}/img/rate/none.gif';
+
+// END RATING
+var loadingText = "<center><img src='{TPL_LINK}/img/loading.gif'> <b>Loading ...</b></center>";
+</script>
+<div id="LoadingDiv" style="position:absolute; visibility:show; z-index:1000; filter: alpha(opacity=80); left:-500px; top:300px;">
+    <table width="200" cellpadding="10" cellspacing="1" border="0" bgcolor="#666666">
+        <tr>
+            <td align=center bgcolor="#FFFFFF"><img src="{TPL_LINK}/img/loading.gif" border="0" /> Loading...</td>
+        </tr>
+    </table>
+</div>
+<!-- BEGIN js --><!-- END js -->
+<body>
+<div align=center style="width:100%"><div style='width:770'>
+<table width=100% cellpadding=0 cellspacing=0 class=topborder>
+	<tr><td align="center" class=header>
+		<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="770" height="138" id="banner" align="middle">
+		<param name="allowScriptAccess" value="sameDomain"><param name="wmode" value="transparent"><param name="allowFullScreen" value="false">
+		<param name="movie" value="{TPL_LINK}/img/banner.swf"><param name="quality" value="high"><param name="bgcolor" value="#000000">	<embed src="{TPL_LINK}/img/banner.swf" quality="high" bgcolor="#000000" width="770" height="138" wmode="transparent" name="banner" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
+		</object>
+		<!-- BOX box_mod('mod_intro') -->
+	</td></tr>
+	<tr><td style='padding:5;border-bottom: #E9E9E9 2px solid'>
+			<div style="padding-top:4">
+			<form id=search onSubmit="return do_search();">
+			Search <input type=text id=keyword value="enter your text here" onFocus="this.value=''" size=30>
+			<select id="searchType">
+				<option value="title" selected>Title / Plot</option>
+				<option value="option">Overview</option>
+				<option value="collect">Collection</option>
+			</select>
+			<input type=submit class=submit value="Find">
+			</form>
+			</div>
+			<div style="padding-top:4">
+			Sort by : 
+			<a href="Quick_Search,1,A"><b>A</b></a> <a href="Quick_Search,1,B"><b>B</b></a> 
+			<a href="Quick_Search,1,C"><b>C</b></a> <a href="Quick_Search,1,D"><b>D</b></a> 
+			<a href="Quick_Search,1,E"><b>E</b></a> 
+			<a href="Quick_Search,1,F"><b>F</b></a> <a href="Quick_Search,1,G"><b>G</b></a> 
+			<a href="Quick_Search,1,H"><b>H</b></a> <a href="Quick_Search,1,I"><b>I</b></a> 
+			<a href="Quick_Search,1,J"><b>J</b></a> <a href="Quick_Search,1,K"><b>K</b></a> 
+			<a href="Quick_Search,1,L"><b>L</b></a> <a href="Quick_Search,1,M"><b>M</b></a> 
+			<a href="Quick_Search,1,N"><b>N</b></a> <a href="Quick_Search,1,O"><b>O</b></a> 
+			<a href="Quick_Search,1,P"><b>P</b></a> <a href="Quick_Search,1,Q"><b>Q</b></a> 
+			<a href="Quick_Search,1,R"><b>R</b></a> <a href="Quick_Search,1,S"><b>S</b></a> 
+			<a href="Quick_Search,1,T"><b>T</b></a> <a href="Quick_Search,1,U"><b>U</b></a> 
+			<a href="Quick_Search,1,V"><b>V</b></a> 
+			<a href="Quick_Search,1,W"><b>W</b></a> <a href="Quick_Search,1,X"><b>X</b></a> 
+			<a href="Quick_Search,1,Y"><b>Y</b></a> <a href="Quick_Search,1,Z"><b>Z</b></a> 
+			<a href="Quick_Search,1,0-9"><b>0#9</b></a>
+			</div>
+	</td></tr>
+	<tr>
+		<td valign=top style="padding-top:5;">
+			<table cellpadding=2 cellspacing=0 width=100% align=center>
+				<tr><td width=100% valign=top align=center>
+					<table cellpadding=1 cellspacing=0 width=100% align=center>
+						<tr><td><!-- BOX box_main_menu() --></td></tr>
+					</table>					
+				</td></tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top style="padding-top:5;">
+			<table cellpadding=2 cellspacing=0 width=100% align=center>
+				<tr>
+				<td width=20% valign=top align=center>
+					<table cellpadding=1 cellspacing=0 width=100% align=center>
+						<tr><td><!-- BOX box_category_menu() --></td></tr>
+						<!--tr><td style="padding-top:10">-- BOX box_user_menu() --</td></tr-->
+						<tr><td><!-- BOX box_top_media('Album') --></td></tr>
+						<tr><td style="padding-top:10"><!-- BOX box_top_media('Play') --></td></tr>
+						<tr><td style='padding-top:10'><!-- BOX box_stats() --></td></tr>
+						<tr><td style='padding-top:10' align=center><!-- BOX box_mod('mod_ads_l') --></td></tr>
+					</table>
+				</td>
+				<td valign=top width=60% align=center>
+					<!-- BOX box_announcement() -->
+					<!-- BOX box_mains() -->
+					<!--div id='playing_field' style='dislay:none;width:100%;'></div-->
+					<!--div class=fr id='show_hide' style='display:none;margin-bottom:5' align=center><span><a href="#" id='SoH' onClick="return SoH_Media('playing_field',0);">[-] Hide this movie</a></span> || <span><a href=# onClick="return SoH_Media('playing_field',1);">[x] Close this movie</a></span></div-->
+					<!--div id='loading' style='display:none;margin-bottom:5'></div-->
+					<!--div id='data_field' style='dislay:none;width:100%'></div-->
+					<!--script>startLoad();</script-->
+					<table width="100%" cellpadding=2 cellspacing=0>
+						<tr><td width=100%><!-- BOX box_top_media('Play_Month') --></td></tr>
+						<tr><td style='padding-top:10' align=center><!-- BOX box_mod('mod_ads_b') --></td></tr>
+					</table>
+				</td>
+				<td valign=top width=20% align=center>
+					<table width=100% cellpadding=0 cellspacing=0 align=center>
+						<tr><td><!-- BOX box_album('New') --></td></tr>
+						<tr><td style='padding-top:10'><!-- BOX box_ads() --></td></tr>
+						<tr><td style='padding-top:10' align=center><!-- BOX box_mod('mod_ads_r') --></td></tr>
+					</table>
+				</td>
+			</table>
+		</td>
+	</tr>
+	<tr><td width="98%"><br><!-- BOX box_user_online() --></td></tr>
+	<tr>
+		<td width="100%">
+			<table class=footer width="100%" cellpadding=4 cellspacing=0>
+				<tr><td align="center"><b>{WEB_TITLE}</b><br>
+				Developed by goOgleVN <a target='_blank' href='http://demdaysao.net'><b>[demdaysao.net™]</b></a> © 2007.</td></tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</div></div>
+<!--- Mã quảng cao -->
+<div id=divAdLeft style="LEFT: -110px; WIDTH: 105px; POSITION: absolute; TOP: 10px">
+<!-- BOX box_lqc() -->
+</div>
+<div id=divAdRight style="LEFT: -110px; WIDTH: 105px; POSITION: absolute; TOP: 10px">
+<!-- BOX box_rqc() -->
+</div>
+<script type=text/javascript src="js/play.js"></script>
+<SCRIPT language=JavaScript>
+ function FloatTopDiv()
+ {
+  startX = document.body.clientWidth - 110, startY = 71;
+  var ns = (navigator.appName.indexOf("Netscape") != -1);
+  var d = document;
+   
+  if (document.body.clientWidth < 980) startX = 71;
+  
+  function ml(id)
+  {
+   var el=d.getElementById?d.getElementById(id):d.all?d.all[id]:d.layers[id];
+   if(d.layers)el.style=el;
+   el.sP=function(x,y){this.style.left=x;this.style.top=y;};
+   el.x = startX;
+   el.y = startY;
+   return el;
+  }
+  
+  window.stayTopLeft=function()
+  {
+  
+   if (document.body.clientWidth < 980)
+   {
+    ftlObj.x = - 115;ftlObj.y = 0; ftlObj.sP(ftlObj.x, ftlObj.y);
+   }
+   
+   else
+   {
+   if (document.documentElement && document.documentElement.scrollTop)
+    var pY = ns ? pageYOffset : document.documentElement.scrollTop;
+   else if (document.body)
+    var pY = ns ? pageYOffset : document.body.scrollTop;
+   if (document.body.scrollTop > 71){startY = 3} else {startY = 71};
+   if (document.body.clientWidth >= 1024)
+   {
+    ftlObj.x = document.body.clientWidth - 110;ftlObj.y += (pY + startY - ftlObj.y)/32;ftlObj.sP(ftlObj.x, ftlObj.y);
+   }
+   else
+   {
+   
+   
+   ftlObj.x  = startX;
+   ftlObj.y += (pY + startY - ftlObj.y)/32;
+   ftlObj.sP(ftlObj.x, ftlObj.y);
+   }
+   }
+   setTimeout("stayTopLeft()", 1);
+  }
+  
+  ftlObj = ml("divAdRight");
+  stayTopLeft();
+  
+ }
+function FloatTopDiv2()
+ {
+  startX2 = document.body.clientWidth - 1004, startY2 = 71;
+  var ns2 = (navigator.appName.indexOf("Netscape") != -1);
+  var d2 = document;
+   
+  if (document.body.clientWidth < 980) startX2 = 71;
+  
+  function ml2(id)
+  {
+   var el2=d2.getElementById?d2.getElementById(id):d2.all?d2.all[id]:d2.layers[id];
+   if(d2.layers)el2.style=el2;
+   el2.sP=function(x,y){this.style.left=x;this.style.top=y;};
+   el2.x = startX2;
+   el2.y = startY2;
+   return el2;
+  }
+  
+  window.stayTopLeft2=function()
+  {
+   if (document.body.clientWidth < 980)
+   {
+    ftlObj2.x = - 115;ftlObj2.y = 0; ftlObj2.sP(ftlObj2.x, ftlObj2.y);
+   }
+   else
+   {
+   if (document.documentElement && document.documentElement.scrollTop)
+    var pY2 = ns2 ? pageYOffset : document.documentElement.scrollTop;
+   else if (document.body)
+    var pY2 = ns2 ? pageYOffset : document.body.scrollTop;
+   if (document.body.scrollTop > 71){startY2 = 3} else {startY2 = 71};
+   if (document.body.clientWidth >= 1024)
+   {
+    ftlObj2.x =  0;ftlObj2.y += (pY2 + startY2 - ftlObj2.y)/32; ftlObj2.sP(ftlObj2.x, ftlObj2.y);
+   }
+   else
+   {   
+   
+   
+   ftlObj2.x  = startX2;
+   ftlObj2.y += (pY2 + startY2 - ftlObj2.y)/32;
+   ftlObj2.sP(ftlObj2.x, ftlObj2.y);
+   }
+   }
+   setTimeout("stayTopLeft2()", 1);
+  }
+  
+  ftlObj2 = ml2("divAdLeft");
+  stayTopLeft2();
+  
+ }
+
+ function ShowAdDiv()
+ {
+  var objAdDivLeft  = document.getElementById("divAdLeft");
+  var objAdDivRight = document.getElementById("divAdRight");
+  if (document.body.clientWidth < 980)
+  {
+   objAdDivLeft.style.left  = - 110;
+   objAdDivRight.style.left = - 110;
+  }
+  
+  else
+  {
+   objAdDivLeft.style.left  = 0;
+   objAdDivRight.style.left = document.body.clientWidth - 110;
+  }
+  FloatTopDiv();
+  FloatTopDiv2();
+ }
+ ShowAdDiv();
+ 
+</SCRIPT>
+<!--- End mã qc -->
+</body>
+</html>

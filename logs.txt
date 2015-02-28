@@ -1,0 +1,198 @@
+### 18:41:23 10-11-2007 ###
+Unable to select database. MySQL reported: Unknown database '222'
+QUERY : 
+### 18:44:23 10-11-2007 ###
+Unable to select database. MySQL reported: Unknown database '222'
+QUERY : 
+### 23:31:11 15-11-2007 ###
+<b>Lỗi MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+QUERY : SELECT cat_name FROM media_cat WHERE cat_id = 
+### 23:22:12 15-11-2007 ###
+<b>Lỗi MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+QUERY : SELECT cat_name FROM media_cat WHERE cat_id IN ()
+### 23:33:17 15-11-2007 ###
+<b>Lỗi MySQL Query</b> : Unknown column 'option_value' in 'field list'
+QUERY : SELECT option_value FROM media_cat WHERE cat_id = '6'
+### 23:25:45 15-11-2007 ###
+Unable to connect to MySQL server. MySQL reported: Can't connect to MySQL server on 'localhost' (10061)
+QUERY : 
+### 01:35:18 20-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-30,30' at line 1
+QUERY : SELECT m_id, m_title, m_cat, m_singer, m_type, m_img, m_viewed, m_downloaded, IF(m_lyric = '' OR m_lyric IS NULL,0,1) m_lyric FROM media_data WHERE m_cat = '3' ORDER BY m_id DESC LIMIT -30,30
+### 20:58:27 20-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+QUERY : SELECT cat_name FROM media_cat WHERE cat_id IN ()
+### 20:03:28 20-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+QUERY : SELECT cat_name FROM media_cat WHERE cat_id IN ()
+### 20:54:28 20-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+QUERY : SELECT cat_name FROM media_cat WHERE cat_id IN ()
+### 20:00:29 20-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+QUERY : SELECT cat_name FROM media_cat WHERE cat_id IN ()
+### 20:11:29 20-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+QUERY : SELECT cat_name FROM media_cat WHERE cat_id IN ()
+### 20:26:29 20-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+QUERY : SELECT cat_name FROM media_cat WHERE cat_id IN ()
+### 20:01:30 20-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+QUERY : SELECT cat_name FROM media_cat WHERE cat_id IN ()
+### 20:53:30 20-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+QUERY : SELECT cat_name FROM media_cat WHERE cat_id IN ()
+### 20:05:31 20-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+QUERY : SELECT cat_name FROM media_cat WHERE cat_id IN ()
+### 22:21:37 20-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+QUERY : SELECT cat_name FROM media_cat WHERE cat_id IN ()
+### 22:40:37 20-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+QUERY : SELECT cat_name FROM media_cat WHERE cat_id IN ()
+### 22:02:39 20-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+QUERY : SELECT cat_name FROM media_cat WHERE cat_id IN ()
+### 22:25:39 20-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+QUERY : SELECT cat_name FROM media_cat WHERE cat_id IN ()
+### 01:31:30 21-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+QUERY : SELECT cat_name FROM media_cat WHERE cat_id IN ()
+### 11:35:00 22-11-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.media_data2' doesn't exist
+QUERY : SELECT m_id, m_title, m_cat, m_singer, m_type, m_img, m_viewed, m_downloaded, IF(m_lyric = '' OR m_lyric IS NULL,0,1) m_lyric FROM media_data2 WHERE '3' IN (m_cat) ORDER BY m_id DESC LIMIT 0,30
+### 11:02:02 22-11-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.media_data2' doesn't exist
+QUERY : SELECT m_id, m_title, m_cat, m_singer, m_type, m_img, m_viewed, m_downloaded, IF(m_lyric = '' OR m_lyric IS NULL,0,1) m_lyric FROM media_data2 WHERE m_cat IN (-1) ORDER BY m_id DESC LIMIT 0,30
+### 16:51:23 22-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM media_data WHERE m_cat LIKE '%,,%' ORDER BY m_id DESC LIMIT ,' at line 1
+QUERY : SELECT  FROM media_data WHERE m_cat LIKE '%,,%' ORDER BY m_id DESC LIMIT ,
+### 16:33:24 22-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM media_data WHERE m_cat LIKE '%,,%' ORDER BY m_id DESC LIMIT ,' at line 1
+QUERY : SELECT  FROM media_data WHERE m_cat LIKE '%,,%' ORDER BY m_id DESC LIMIT ,
+### 16:06:25 22-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM media_data WHERE ORDER BY m_id DESC' at line 1
+QUERY : SELECT  FROM media_data WHERE ORDER BY m_id DESC
+### 16:20:25 22-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY m_id DESC' at line 1
+QUERY : SELECT * FROM media_data WHERE ORDER BY m_id DESC
+### 16:24:26 23-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'RAND() ORDER BY mod_name DESC' at line 1
+QUERY : SELECT * FROM media_mod RAND() ORDER BY mod_name DESC
+### 16:33:26 23-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'RAND() FROM media_mod ORDER BY mod_name DESC' at line 1
+QUERY : SELECT * RAND() FROM media_mod ORDER BY mod_name DESC
+### 16:43:26 23-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'RAND()' at line 1
+QUERY : SELECT * FROM media_mod ORDER BY mod_name DESC RAND()
+### 21:16:58 23-11-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.media_mod' doesn't exist
+QUERY : SELECT * FROM media_mod WHERE mod_name LIKE 'mod_ads%' ORDER BY RAND() LIMIT 0,1
+### 21:18:58 23-11-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.media_mod' doesn't exist
+QUERY : SELECT * FROM media_mod WHERE mod_name LIKE 'mod_ads%' ORDER BY RAND() LIMIT 0,1
+### 21:06:59 23-11-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.media_mod' doesn't exist
+QUERY : SELECT * FROM media_mod WHERE mod_name LIKE 'mod_ads%' ORDER BY RAND() LIMIT 0,1
+### 21:43:59 23-11-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.media_mod' doesn't exist
+QUERY : SELECT * FROM media_mod WHERE mod_name LIKE 'mod_ads%' ORDER BY RAND() LIMIT 0,1
+### 23:31:33 23-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY m_title ASC, m_title_ascii ASC LIMIT 0,12' at line 1
+QUERY : SELECT m_id, m_title, m_singer, m_cat, m_type, m_img, m_viewed, m_downloaded, IF(m_lyric = '' OR m_lyric IS NULL,0,1) m_lyric FROM media_data WHERE m_id IN () ORDER BY m_title ASC, m_title_ascii ASC LIMIT 0,12
+### 23:06:34 23-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY m_title ASC, m_title_ascii ASC LIMIT 0,12' at line 1
+QUERY : SELECT m_id, m_title, m_singer, m_cat, m_type, m_img, m_viewed, m_downloaded, IF(m_lyric = '' OR m_lyric IS NULL,0,1) m_lyric FROM media_data WHERE m_id IN () ORDER BY m_title ASC, m_title_ascii ASC LIMIT 0,12
+### 23:23:34 23-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY m_title ASC, m_title_ascii ASC LIMIT 0,12' at line 1
+QUERY : SELECT m_id, m_title, m_singer, m_cat, m_type, m_img, m_viewed, m_downloaded, IF(m_lyric = '' OR m_lyric IS NULL,0,1) m_lyric FROM media_data WHERE m_id IN () ORDER BY m_title ASC, m_title_ascii ASC LIMIT 0,12
+### 23:29:35 23-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0,12' at line 1
+QUERY : SELECT m_id, m_title, m_singer, m_cat, m_type, m_img, m_viewed, m_downloaded, IF(m_lyric = '' OR m_lyric IS NULL,0,1) m_lyric FROM media_data WHERE m_id IN () LIMIT 0,12
+### 23:38:35 23-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+QUERY : SELECT m_id, m_title, m_singer, m_cat, m_type, m_img, m_viewed, m_downloaded, IF(m_lyric = '' OR m_lyric IS NULL,0,1) m_lyric FROM media_data WHERE m_id IN ()
+### 23:35:36 23-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY m_title ASC, m_title_ascii ASC LIMIT 0,12' at line 1
+QUERY : SELECT m_id, m_title, m_singer, m_cat, m_type, m_img, m_viewed, m_downloaded, IF(m_lyric = '' OR m_lyric IS NULL,0,1) m_lyric FROM media_data WHERE m_id IN () ORDER BY m_title ASC, m_title_ascii ASC LIMIT 0,12
+### 23:06:37 23-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY m_title ASC, m_title_ascii ASC LIMIT 0,12' at line 1
+QUERY : SELECT m_id, m_title, m_singer, m_cat, m_type, m_img, m_viewed, m_downloaded, IF(m_lyric = '' OR m_lyric IS NULL,0,1) m_lyric FROM media_data WHERE m_id IN () ORDER BY m_title ASC, m_title_ascii ASC LIMIT 0,12
+### 23:15:37 23-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY m_title ASC2, m_title_ascii ASC LIMIT 0,12' at line 1
+QUERY : SELECT m_id, m_title, m_singer, m_cat, m_type, m_img, m_viewed, m_downloaded, IF(m_lyric = '' OR m_lyric IS NULL,0,1) m_lyric FROM media_data WHERE m_id IN () ORDER BY m_title ASC2, m_title_ascii ASC LIMIT 0,12
+### 23:14:42 23-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'media_album WHERE album_name_ascii LIKE '%1%' ORDER BY album_name ASC LIMIT 0,12' at line 1
+QUERY : SELECT album_name,album_img,album_id,album_singer 2FROM media_album WHERE album_name_ascii LIKE '%1%' ORDER BY album_name ASC LIMIT 0,12
+### 23:01:43 23-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY m_title ASC, m_title_ascii ASC LIMIT 0,12' at line 1
+QUERY : SELECT m_id, m_title, m_singer, m_cat, m_type, m_img, m_viewed, m_downloaded, IF(m_lyric = '' OR m_lyric IS NULL,0,1) m_lyric FROM media_data WHERE m_id IN () ORDER BY m_title ASC, m_title_ascii ASC LIMIT 0,12
+### 20:19:57 06-12-2007 ###
+<b>Error MySQL Query</b> : Unknown column 'm_name' in 'order clause'
+QUERY : SELECT m_id, m_title, m_cat, m_singer, m_type, m_img, m_viewed, m_downloaded, IF(m_lyric = '' OR m_lyric IS NULL,0,1) m_lyric FROM media_data WHERE m_cat LIKE '%,4,%' ORDER BY m_name DESC LIMIT 0,12
+### 20:21:57 06-12-2007 ###
+<b>Error MySQL Query</b> : Unknown column 'm_name' in 'order clause'
+QUERY : SELECT m_id, m_title, m_cat, m_singer, m_type, m_img, m_viewed, m_downloaded, IF(m_lyric = '' OR m_lyric IS NULL,0,1) m_lyric FROM media_data WHERE m_cat LIKE '%,5,%' ORDER BY m_name DESC LIMIT 0,12
+### 00:22:46 07-12-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.online' doesn't exist
+QUERY : SELECT sid FROM online WHERE sid = 'eb4988d96feb4a8dd853ec0cf1f72709'
+### 00:22:47 07-12-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.online' doesn't exist
+QUERY : SELECT sid FROM online WHERE sid = 'eb4988d96feb4a8dd853ec0cf1f72709'
+### 00:31:47 07-12-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.online' doesn't exist
+QUERY : SELECT sid FROM online WHERE sid = 'eb4988d96feb4a8dd853ec0cf1f72709'
+### 00:09:48 07-12-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.online' doesn't exist
+QUERY : SELECT sid FROM online WHERE sid = 'eb4988d96feb4a8dd853ec0cf1f72709'
+### 00:09:48 07-12-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.online' doesn't exist
+QUERY : SELECT sid FROM online WHERE sid = 'eb4988d96feb4a8dd853ec0cf1f72709'
+### 00:10:48 07-12-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.online' doesn't exist
+QUERY : SELECT sid FROM online WHERE sid = 'eb4988d96feb4a8dd853ec0cf1f72709'
+### 00:11:48 07-12-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.online' doesn't exist
+QUERY : SELECT sid FROM online WHERE sid = 'eb4988d96feb4a8dd853ec0cf1f72709'
+### 00:11:48 07-12-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.online' doesn't exist
+QUERY : SELECT sid FROM online WHERE sid = 'eb4988d96feb4a8dd853ec0cf1f72709'
+### 00:11:48 07-12-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.online' doesn't exist
+QUERY : SELECT sid FROM online WHERE sid = 'eb4988d96feb4a8dd853ec0cf1f72709'
+### 00:11:48 07-12-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.online' doesn't exist
+QUERY : SELECT sid FROM online WHERE sid = 'eb4988d96feb4a8dd853ec0cf1f72709'
+### 00:11:48 07-12-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.online' doesn't exist
+QUERY : SELECT sid FROM online WHERE sid = 'eb4988d96feb4a8dd853ec0cf1f72709'
+### 00:12:48 07-12-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.online' doesn't exist
+QUERY : SELECT sid FROM online WHERE sid = 'eb4988d96feb4a8dd853ec0cf1f72709'
+### 00:12:48 07-12-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.online' doesn't exist
+QUERY : SELECT sid FROM online WHERE sid = 'eb4988d96feb4a8dd853ec0cf1f72709'
+### 00:40:50 07-12-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.data' doesn't exist
+QUERY : SELECT m_id, m_title, m_cat, m_singer, m_type, m_img, m_viewed, m_downloaded, IF(m_lyric = '' OR m_lyric IS NULL,0,1) m_lyric FROM data ORDER BY m_id DESC LIMIT 0,12
+### 00:42:50 07-12-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.data' doesn't exist
+QUERY : SELECT m_id, m_title, m_cat, m_singer, m_type, m_img, m_viewed, m_downloaded, IF(m_lyric = '' OR m_lyric IS NULL,0,1) m_lyric FROM data ORDER BY m_id DESC LIMIT 0,12
+### 00:01:51 07-12-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.data' doesn't exist
+QUERY : SELECT m_id, m_title, m_cat, m_singer, m_type, m_img, m_viewed, m_downloaded, IF(m_lyric = '' OR m_lyric IS NULL,0,1) m_lyric FROM data ORDER BY m_id DESC LIMIT 0,12
+### 00:50:58 07-12-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.online' doesn't exist
+QUERY : SELECT sid FROM online WHERE sid = 'eb4988d96feb4a8dd853ec0cf1f72709'
+### 00:03:59 07-12-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.online' doesn't exist
+QUERY : SELECT sid FROM online WHERE sid = 'eb4988d96feb4a8dd853ec0cf1f72709'
+### 00:18:59 07-12-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.online' doesn't exist
+QUERY : SELECT sid FROM online WHERE sid = 'eb4988d96feb4a8dd853ec0cf1f72709'
+### 01:56:15 07-12-2007 ###
+<b>Error MySQL Query</b> : Table 'xmedia.data' doesn't exist
+QUERY : SELECT m_id, m_title, m_cat, m_singer, m_type, m_img, m_viewed, m_downloaded, IF(m_lyric = '' OR m_lyric IS NULL,0,1) m_lyric FROM data ORDER BY m_id DESC LIMIT 0,12

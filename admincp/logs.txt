@@ -1,0 +1,43 @@
+### 22:49:20 12-11-2007 ###
+<b>Lỗi MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order ASC LIMIT 0,30' at line 1
+QUERY : SELECT * FROM media_options ORDER BY order ASC LIMIT 0,30
+### 22:12:21 12-11-2007 ###
+<b>Lỗi MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order ASC LIMIT 0,30' at line 1
+QUERY : SELECT * FROM media_options ORDER BY order ASC LIMIT 0,30
+### 23:57:07 12-11-2007 ###
+<b>Lỗi MySQL Query</b> : Unknown column 'm_piz' in 'field list'
+QUERY : UPDATE media_data SET m_title = "High School Musical 2", m_album = "0", m_cat = "7", m_type = '3', m_piz = "C:\\Documents and Settings\\demdaysao\\Desktop\\class.upload_0.25RC1.txt", m_url = "http://localhost/xmedia/filez/Sway - Pussycat Dolls.mpg", m_is_local = "", m_lyric = "Kì nghỉ hè, Gabriella và Troy muốn có một kì nghỉ hè tuyệt vời bên nhau nếu như họ có thể tìm được việc làm. Sharpay thuê Troy làm việc tại câu lạc bộ đồng quê Lava Springs nhưng kế hoạch đổ vỡ sau khi cả nhóm Mèo Hoang cũng tìm được việc ở đó. Sharpay cố gắng làm Troy thích cô ấy và hát với cô tại Talent show. Cô ấy cho thăng chức, học bổng và sự đối xử tốt với Troy để thay đổi Troy thành một người không quan tâm đến đội Mèo Hoang. Nhưng khi Gabriella bỏ đi, cậu có 2 lựa chọn: Gabriella hoặc sự nổi tiếng và giàu có.", m_title_ascii = 'high school musical 2' WHERE m_id = '1'
+### 23:10:08 12-11-2007 ###
+<b>Lỗi MySQL Query</b> : Unknown column 'm_piz' in 'field list'
+QUERY : UPDATE media_data SET m_title = "High School Musical 2", m_album = "0", m_cat = "7", m_type = '3', m_piz = "", m_url = "http://localhost/xmedia/filez/Sway - Pussycat Dolls.mpg", m_is_local = "", m_lyric = "Kì nghỉ hè, Gabriella và Troy muốn có một kì nghỉ hè tuyệt vời bên nhau nếu như họ có thể tìm được việc làm. Sharpay thuê Troy làm việc tại câu lạc bộ đồng quê Lava Springs nhưng kế hoạch đổ vỡ sau khi cả nhóm Mèo Hoang cũng tìm được việc ở đó. Sharpay cố gắng làm Troy thích cô ấy và hát với cô tại Talent show. Cô ấy cho thăng chức, học bổng và sự đối xử tốt với Troy để thay đổi Troy thành một người không quan tâm đến đội Mèo Hoang. Nhưng khi Gabriella bỏ đi, cậu có 2 lựa chọn: Gabriella hoặc sự nổi tiếng và giàu có.", m_title_ascii = 'high school musical 2' WHERE m_id = '1'
+### 23:22:40 12-11-2007 ###
+<b>Lỗi MySQL Query</b> : Unknown column 'm_piz' in 'field list'
+QUERY : UPDATE media_data SET m_title = "High School Musical 2", m_album = "1", m_cat = "3", m_type = '3', m_piz = "", m_url = "http://localhost/xmedia/filez/Sway - Pussycat Dolls.mpg", m_is_local = "", m_lyric = "Kì nghỉ hè, Gabriella và Troy muốn có một kì nghỉ hè tuyệt vời bên nhau nếu như họ có thể tìm được việc làm. Sharpay thuê Troy làm việc tại câu lạc bộ đồng quê Lava Springs nhưng kế hoạch đổ vỡ sau khi cả nhóm Mèo Hoang cũng tìm được việc ở đó. Sharpay cố gắng làm Troy thích cô ấy và hát với cô tại Talent show. Cô ấy cho thăng chức, học bổng và sự đối xử tốt với Troy để thay đổi Troy thành một người không quan tâm đến đội Mèo Hoang. Nhưng khi Gabriella bỏ đi, cậu có 2 lựa chọn: Gabriella hoặc sự nổi tiếng và giàu có.", m_title_ascii = 'high school musical 2' WHERE m_id = '1'
+### 23:25:45 15-11-2007 ###
+Unable to connect to MySQL server. MySQL reported: Can't connect to MySQL server on 'localhost' (10061)
+QUERY : 
+### 00:20:43 16-11-2007 ###
+<b>Lỗi MySQL Query</b> : Unknown column 'option_order' in 'order clause'
+QUERY : SELECT * FROM media_options_values WHERE m_id = '1' AND option_id = '1' ORDER BY option_order ASC
+### 01:29:27 16-11-2007 ###
+<b>Lỗi MySQL Query</b> : Unknown column 'option_order' in 'order clause'
+QUERY : UPDATE media_options_values SET option_value='2007' WHERE option_id=1 AND m_id=1 ORDER BY option_order ASC
+### 23:53:39 19-11-2007 ###
+<b>Error MySQL Query</b> : Unknown column 'm_linkrc' in 'field list'
+QUERY : UPDATE media_data SET m_title = "Shanghai Kiss", m_cat = "6", m_album = "0", m_type = '1', m_img = "picz/mov_shanghai_kiss.jpg", m_url = "", m_is_local = "", m_lyric = "", m_linkrc = "http://rapidshare.com/files/61407635/Shanghai.Kiss.DVDRip.XviD.VoMiT.part1.rar<br />
+http://rapidshare.com/files/61407622/Shanghai.Kiss.DVDRip.XviD.VoMiT.part2.rar<br />
+http://rapidshare.com/files/61407687/Shanghai.Kiss.DVDRip.XviD.VoMiT.part3.rar<br />
+http://rapidshare.com/files/61408912/Shanghai.Kiss.DVDRip.XviD.VoMiT.part4.rar<br />
+http://rapidshare.com/files/61407442/Shanghai.Kiss.DVDRip.XviD.VoMiT.part5.rar<br />
+http://rapidshare.com/files/61407999/Shanghai.Kiss.DVDRip.XviD.VoMiT.part6.rar<br />
+http://rapidshare.com/files/61407415/Shanghai.Kiss.DVDRip.XviD.VoMiT.part7.rar<br />
+http://rapidshare.com/files/61407496/Shanghai.Kiss.DVDRip.XviD.VoMiT.part8.rar", m_linkm = "", m_linko = "", m_title_ascii = 'shanghai kiss' WHERE m_id = '15'
+### 09:14:45 24-11-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+QUERY : SELECT * FROM media_options_values WHERE option_id=1 AND m_id=
+### 21:10:03 06-12-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''8''' at line 1
+QUERY : DELETE FROM media_lqc WHERE lqc_id = '8''
+### 21:14:03 06-12-2007 ###
+<b>Error MySQL Query</b> : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''7''' at line 1
+QUERY : DELETE FROM media_rqc WHERE rqc_id = '7''

@@ -1,0 +1,40 @@
+<table width=100% cellpadding=0 cellspacing=0>
+	<tr>
+		<td valign=top align=center>
+		<table cellpadding=5 cellspacing=2 class=border bgcolor="#F9F9F9" width=99% align=center>
+			<tr><td colspan=2 class=title_c>{album.NAME}</td></tr>
+			<tr>
+				<td valign=top align=center>
+					<table cellpadding=2 cellspacing=2 class=border bgcolor="#FFFFFF" width=100% align=center>
+						<tr><td><img width='120px' src='{album.IMG}'></td></tr>
+					</table>
+					<b>{album.NAME}</b>
+				</td>
+				<td valign=top width=100%>{album.INFO}</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<!-- BEGIN album_songs -->
+	<tr><td colspan=3 align=center style="padding-top:10">
+		<table width=100% cellpadding=0 cellspacing=0><tr>
+			<td valign=top><table width=100% cellpadding=0 cellspacing=0>
+			<tr><td><table cellpadding=2 cellspacing=2 width=100% class=border>
+				<tr><td colspan=6 align=center class=title_c><b>All movies in collection</b></td></tr>
+				<!-- BEGIN list -->
+				<!-- #BEGIN begin_tag --><tr class={song.CLASS} align=center><!-- #END begin_tag -->
+				<!-- #BEGIN list_row -->
+				<td valign=top align=center width=33%>
+					<table cellpadding=2 cellspacing=2 width=100% class=border>
+					<tr><td valign=bottom align=center><a href="{song.URL}">{song.PIC}</a></td></tr><tr><td valign=bottom align=center><a href="{song.URL}"><b>{song.TITLE}</b>{song.TITLE2}</a><br><i>{song.CAT}</i>
+					</td></tr></table>
+				</td>
+				<!-- #END list_row -->
+				<!-- #BEGIN end_tag --></tr><!-- #END end_tag -->
+				<!-- END list -->
+			</table></td></tr>
+			</table></td>
+		</tr></table>
+	</td></tr>
+	<!-- END album_songs -->
+</table>
